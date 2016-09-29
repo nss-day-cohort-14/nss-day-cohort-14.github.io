@@ -1,0 +1,39 @@
+{
+  "class": [
+    {
+      "name": "Christopher Hill",
+      "githubLink": "https://github.com/Zippoffer",
+      "portfolioLink": "zippoffer.github.io",
+      "linkedInLink": "https://www.linkedin.com/in/zippoffer",
+      "aboutMe": "I've been a carpenter, an artist, and an electrician. I am a father and a husband. I love programming, because it allows me to create and learn continuously."
+    },
+    {
+      "name": "Tyler Daniel",
+      "githubLink": "https://github.com/iamtylerd",
+      "portfolioLink": "http://www.tylerdaniel.com",
+      "linkedInLink": "https://www.linkedin.com/in/tyler-daniel-67991698",
+      "aboutMe": "Things I enjoy: sports (I play in a wood bat baseball league and a weekly basketball league), movies/tv (only good tv, though!), technology, food, traveling, video games, power lifting, food, beer, learning things on Youtube, and food."
+    },
+    {
+      "name": "Mike Meadows",
+      "githubLink": "www.github.com/mmeadow3",
+      "portfolioLink": "www.mikemeadowsdev.com",
+      "linkedInLink": "www.linkedin.com/in/mikemeadows2",
+      "aboutMe": "Mike is a former scientist looking to convert his passion for logic into programming.  Also, he is a big fan of talking about himself in third person."
+    },
+    {
+      "name": "Jack Mocherman",
+      "githubLink": "https://github.com/jackmoch",
+      "portfolioLink": "https://jackmoch.github.io/",
+      "linkedInLink": "linkedin.com/in/jackmocherman",
+      "aboutMe": "I am within 5 feet of music, books, code, coffee, or some combination of the four at any given time!"
+    },
+    {
+      "name": "Dominic Serrano",
+      "githubLink": "https://github.com/DominicSerranoC14",
+      "portfolioLink": "www.dominicserrano.com",
+      "linkedInLink": "https://www.linkedin.com/in/dominic-serrano",
+      "aboutMe": "When I am not programming or learning more about my current project, I enjoy playing ping-pong, soccer, and sampling craft beers."
+    },
+  ]
+}
