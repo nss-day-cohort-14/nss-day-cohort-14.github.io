@@ -35,5 +35,33 @@
       "linkedInLink": "https://www.linkedin.com/in/dominic-serrano",
       "aboutMe": "When I am not programming or learning more about my current project, I enjoy playing ping-pong, soccer, and sampling craft beers."
     },
+    {
+      "name": "Daniel Chapdelaine",
+      "githubLink": "https://github.com/DanielC2008",
+      "portfolioLink": "www.danielchapdelaine.com",
+      "linkedInLink": "https://www.linkedin.com/in/daniel-chapdelaine-595a09126",
+      "aboutMe": "Status Code: 418"
+    },
+    {
+      "name": "John D. Hamm",
+      "githubLink": "https://github.com/JohnDHamm",
+      "portfolioLink": "www.johndhamm.com",
+      "linkedInLink": "https://www.linkedin.com/in/johndhamm",
+      "aboutMe": "Right brain: Let’s make cool apps with great UX!
+      Left brain: Don’t forget about logic and structure!
+      John: Relax boys, as a developer we can do both!"
+    },
+    {
+      "name": "Vaughn Walters",
+      "githubLink": "https://github.com/vaughnwalters",
+      "portfolioLink": "'https://www.vaughnwalters.com",
+      "linkedInLink": "https://www.linkedin.com/in/vaughnwalters",
+      "aboutMe": "I like to learn new tricks (food, songs, web things) and keep my brain and body healthy and active.  I try to be a good dude and make cool stuff."
+    },
   ]
 }
+name: 'Vaughn Walters ',
+githubLink: 'https://github.com/vaughnwalters/ ',
+portfolioLink: 'https://www.vaughnwalters.com/ ',
+linkedInLink: 'https://www.linkedin.com/in/vaughnwalters ',
+aboutMe: 'I like to learn new tricks (food, songs, web things) and keep my brain and body healthy and active.  I try to be a good dude and make cool stuff'
