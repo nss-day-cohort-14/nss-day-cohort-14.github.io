@@ -40,4 +40,5 @@ const loadInfo = () => {
     populateGrid(infoArr)
   })
 }
+
 loadInfo()
