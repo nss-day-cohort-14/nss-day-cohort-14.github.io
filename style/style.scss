@@ -1,0 +1,25 @@
+// run this command at the root: sass --watch style/style.scss:style/style.css
+
+
+/*----grid-------*/
+.gridWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 85%;
+  min-height: 200px;
+  border: 2px solid black;
+  margin: 20px auto;
+
+  .cohortCard {
+    width: 30%;
+    border: 1px solid red;
+    margin-top: 10px;
+
+    .cardImg {
+      height: 120px;
+      width: 90%;
+    }
+  }
+
+}
