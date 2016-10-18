@@ -1,3 +1,6 @@
+* {
+  font-family: "brandon-grotesque", 'Dosis', sans-serif; }
+
 /*----grid-------*/
 .gridWrap {
   display: flex;
