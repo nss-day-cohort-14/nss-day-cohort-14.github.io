@@ -15,7 +15,6 @@ $green: #97be47;
   min-height: 200px;
   border: 2px solid black;
   margin: 20px auto;
-  background-color:
 
   .cohortCard {
     width: 30%;
@@ -28,4 +27,26 @@ $green: #97be47;
     }
   }
 
+}
+
+// Styling for techStack  //
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  margin: 20px auto;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+    .techImg {
+      max-width: 100px;
+      max-height: 100px;
+    }
 }

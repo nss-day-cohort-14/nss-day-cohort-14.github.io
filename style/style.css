@@ -15,4 +15,19 @@
       height: 120px;
       width: 90%; }
 
+.techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  margin: 20px auto; }
+  .techStack div {
+    display: flex;
+    align-items: center; }
+  .techStack .techImg {
+    max-width: 100px;
+    max-height: 100px; }
+
 /*# sourceMappingURL=style.css.map */
