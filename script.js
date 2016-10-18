@@ -16,16 +16,15 @@ const populateGrid = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     let cohortCard = `
     <div class='cohortCard'>
-    <div class="cardImg">
-    </div>
-    <h4>${arr[i].name}</h4>
-    <h5>${arr[i].aboutMe}</h5>
-    <a href="${arr[i].githubLink}">GitHub</a>
-    <a href="${arr[i].portfolioLink}">Portfolio</a>
-    <a href="${arr[i].linkedInLink}">LinkedIn</a>
+      <div class="cardImg">
+      </div>
+      <h4>${arr[i].name}</h4>
+      <h5>${arr[i].aboutMe}</h5>
+      <a href="${arr[i].githubLink}">GitHub</a>
+      <a href="${arr[i].portfolioLink}">Portfolio</a>
+      <a href="${arr[i].linkedInLink}">LinkedIn</a>
     </div>
     `
-    console.log(cohortCard)
     $('.gridWrap').append(cohortCard)
   }
 }
