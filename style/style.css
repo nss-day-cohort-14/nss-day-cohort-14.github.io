@@ -14,5 +14,7 @@
     .gridWrap .cohortCard .cardImg {
       height: 120px;
       width: 90%; }
+      .gridWrap .cohortCard .cardImg img {
+        max-width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
