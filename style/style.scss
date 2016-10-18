@@ -1,4 +1,9 @@
 // run this command at the root: sass --watch style/style.scss:style/style.css
+$blue: #2d3f4b;
+$red: #f04442;
+$white: #ffeaaa;
+$yellow: #f4c435;
+$green: #97be47;
 
 
 /*----grid-------*/
@@ -10,6 +15,7 @@
   min-height: 200px;
   border: 2px solid black;
   margin: 20px auto;
+  background-color:
 
   .cohortCard {
     width: 30%;
