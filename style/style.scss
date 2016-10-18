@@ -1,6 +1,4 @@
-h1 {
-  color: tomato;
-}
+
 
 
 /*----grid-------*/
@@ -12,15 +10,16 @@ h1 {
   min-height: 200px;
   border: 2px solid black;
   margin: 20px auto;
-}
 
-.cohortCard {
-  width: 30%;
-  border: 1px solid red;
-  margin-top: 10px;
-}
+  .cohortCard {
+    width: 30%;
+    border: 1px solid red;
+    margin-top: 10px;
 
-.cardImg {
-  height: 120px;
-  width: 90%;
+    .cardImg {
+      height: 120px;
+      width: 90%;
+    }
+  }
+
 }
