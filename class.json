@@ -47,7 +47,7 @@
       "githubLink": "https://github.com/JohnDHamm",
       "portfolioLink": "https://www.johndhamm.com",
       "linkedInLink": "https://www.linkedin.com/in/johndhamm",
-      "aboutMe": "Right brain: Let’s make cool apps with great UX! Left brain: Don’t forget about logic and structure! John: Relax boys, as a developer we can do both!"
+      "aboutMe": "Right brain: Let’s make cool apps with great UX!<br/>Left brain: Don’t forget about logic and structure!<br/>John: Relax boys, as a developer we can do both!"
     },
     {
       "name": "Vaughn Walters",
@@ -87,9 +87,79 @@
     {
       "name": "Tk Swann",
       "githubLink": "https://github.com/tkswann2",
-      "portfolioLink": "http://swanntoo.com",
+      "portfolioLink": "http://www.swanntoo.com",
       "linkedInLink": "https://www.linkedin.com/in/tkswann2",
       "aboutMe": "School of hard-knocks chef with a passion for technology turned software developer."
-    }
+    },
+    {
+      "name": "Zakk George",
+      "githubLink": "https://github.com/ZentoBits",
+      "portfolioLink": "http://www.zakkgeorge.com",
+      "linkedInLink": "https://www.linkedin.com/in/zakk-george-79530384",
+      "aboutMe": "I love software development, video games, and a glass of scotch."
+    },
+    {
+      "name": "Matt Latham",
+      "githubLink": "https://github.com/lathammatt",
+      "portfolioLink": "http://www.mattlatham.net",
+      "linkedInLink": "https://www.linkedin/in/matt-latham-code-dev",
+      "aboutMe": "Web Developer. Musician. Writer. Aspiring Bond Villain."
+    },
+    {
+      "name": "Joshua Philips",
+      "githubLink": "https://github.com/jmphilips",
+      "portfolioLink": "http://www.jmphilips.github.io",
+      "linkedInLink": "https://www.linkedin.com/in/jmichaelphilips",
+      "aboutMe": "I am a software developer currently  based in Nashville, Tennessee."
+    },
+    {
+      "name": "Marshall Friskics-Warren",
+      "githubLink": "https://github.com/wmfwarren",
+      "portfolioLink": "http://www.marshallfw.com",
+      "linkedInLink": "https://www.linkedin.com/in/marshall-friskics-warren-52367396",
+      "aboutMe": "I am a software developer currently  based in Nashville, Tennessee"
+    },
+    {
+      "name": "Chad Tate",
+      "githubLink": "https://github.com/cjt1105",
+      "portfolioLink": "https://cjt1105.github.io",
+      "linkedInLink": "https://www.linkedin.com/in/c-j-tate-50a8a6b3",
+      "aboutMe": "Passionate about learning, problem solving, and everything code. Can't wait to begin my career as a developer."
+    },
+    {
+      "name": "Dan Day",
+      "githubLink": "https://github.com/danrday",
+      "portfolioLink": "http://www.danrday.com",
+      "linkedInLink": "https://www.linkedin.com/in/dan-day-11992821",
+      "aboutMe": "Developer interested in data visualization and UX, with a professional background in film editing and motion design."
+    },
+    {
+     "name": "Banks Humphreys",
+     "githubLink": "https://github.com/iobg",
+     "portfolioLink": "bankshumphreys.com",
+     "linkedInLink": "https://www.linkedin.com/in/banks-humphreys",
+     "aboutMe": "I love learning new technologies, and I'm not satisfied until mastery is achieved. Always excited to take on something new and grow from it."
+   },
+   {
+     "name": "Dave Harms",
+     "githubLink": "https://github.com/daveharmswebdev",
+     "portfolioLink": "https://daveharmswebdev.github.io",
+     "linkedInLink": "https://www.linkedin.com/in/walter-harms-a71045103",
+     "aboutMe": "Full Stack Developer with 9 years of healthcare experience. Father, Landlord, and practitioner of crossfit."
+   },
+   {
+     "name": "Jamey McAuliffe",
+     "githubLink": "https://github.com/JameyMcAuliffe",
+     "portfolioLink": "jameymcauliffe.com",
+     "linkedInLink": "https://www.linkedin.com/in/jamey-mcauliffe-00623a127?trk=hp-identity-name",
+     "aboutMe": "Just another coder trying to code in this coded up world"
+   },
+   {
+    "name": "Lauren Cherie Smith",
+    "githubLink": "github.com/laurensaurenson",
+    "portfolioLink": "laurencherie.com",
+    "linkedInLink": "https://www.linkedin.com/in/laurencherie",
+    "aboutMe": "Geek. Graphic Designer. Web Developer."
+   }
   ]
 }
