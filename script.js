@@ -30,6 +30,7 @@ const populateGrid = (arr) => {
     $( "div.cohortCard" ).hover(function(e) {
       console.log("cohort card mousedover");
       console.log(e.currentTarget);
+      
     });
   }
 }
