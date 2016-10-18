@@ -17,6 +17,7 @@ const populateGrid = (arr) => {
     let cohortCard = `
     <div class='cohortCard'>
       <div class="cardImg">
+      <img src=${arr[i].photo}>
       </div>
       <h4>${arr[i].name}</h4>
       <h5>${arr[i].aboutMe}</h5>
