@@ -30,9 +30,9 @@ const populateGrid = (arr) => {
   }
 }
 
-let infoArr = []
 
 const loadInfo = () => {
+  let infoArr = []
   getCohortInfo()
   .then((data) => {
     console.log("data: ", data)
