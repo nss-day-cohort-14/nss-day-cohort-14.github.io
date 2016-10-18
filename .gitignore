@@ -38,3 +38,5 @@ bower_components
 .node_repl_history
 
 .sass-cache
+style/style.css
+style/style.css.map
