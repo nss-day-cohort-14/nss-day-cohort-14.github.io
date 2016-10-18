@@ -28,7 +28,6 @@ body {
   width: 85%;
   min-height: 200px;
   margin: 20px auto;
-  // background-color:
 
   .cohortCard {
     width: 30%;
@@ -38,6 +37,9 @@ body {
     .cardImg {
       height: 120px;
       width: 90%;
+      img {
+        max-width: 80%;
+      }
     }
   }
 
