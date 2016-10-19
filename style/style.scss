@@ -15,6 +15,18 @@ body {
   width: 90%;
 }
 
+@import 'about';
+
+body {
+  background-color: $yellow;
+}
+
+/*-----main container---*/
+.mainContainer {
+  background-color: $blue;
+  width: 90%;
+}
+
 .about,
 .techStack,
 .groupPhoto {
@@ -28,7 +40,6 @@ body {
   width: 85%;
   min-height: 200px;
   margin: 20px auto;
-  
 
   .cohortCard {
     width: 30%;
