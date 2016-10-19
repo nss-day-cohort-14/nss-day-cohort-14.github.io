@@ -5,6 +5,8 @@ $white: #ffeaaa;
 $yellow: #f4c435;
 $green: #97be47;
 
+@import 'about';
+
 body {
   background-color: $yellow;
 }
