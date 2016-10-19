@@ -5,6 +5,10 @@ $white: #ffeaaa;
 $yellow: #f4c435;
 $green: #97be47;
 
+* {
+  font-family: "brandon-grotesque", 'Dosis', sans-serif;
+}
+
 body {
   background-color: $yellow;
 }
