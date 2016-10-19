@@ -1,6 +1,25 @@
 // run this command at the root: sass --watch style/style.scss:style/style.css
+$blue: #2d3f4b;
+$red: #f04442;
+$white: #ffeaaa;
+$yellow: #f4c435;
+$green: #97be47;
 
+body {
+  background-color: $yellow;
+}
 
+/*-----main container---*/
+.mainContainer {
+  background-color: $blue;
+  width: 90%;
+}
+
+.about,
+.techStack,
+.groupPhoto {
+  border-top: 3px solid $red;
+}
 /*----grid-------*/
 .gridWrap {
   display: flex;
@@ -8,8 +27,8 @@
   justify-content: space-around;
   width: 85%;
   min-height: 200px;
-  border: 2px solid black;
   margin: 20px auto;
+
 
   .cohortCard {
     width: 30%;
@@ -19,6 +38,9 @@
     .cardImg {
       height: 120px;
       width: 90%;
+      img {
+        max-width: 80%;
+      }
     }
   }
 
