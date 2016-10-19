@@ -9,7 +9,33 @@ $green: #97be47;
   font-family: "brandon-grotesque", 'Dosis', sans-serif;
 }
 
+body {
+  background-color: $yellow;
+}
 
+/*-----main container---*/
+.mainContainer {
+  background-color: $blue;
+  width: 90%;
+}
+
+@import 'about';
+
+body {
+  background-color: $yellow;
+}
+
+/*-----main container---*/
+.mainContainer {
+  background-color: $blue;
+  width: 90%;
+}
+
+.about,
+.techStack,
+.groupPhoto {
+  border-top: 3px solid $red;
+}
 /*----grid-------*/
 .gridWrap {
   display: flex;
@@ -17,7 +43,6 @@ $green: #97be47;
   justify-content: space-around;
   width: 85%;
   min-height: 200px;
-  border: 2px solid black;
   margin: 20px auto;
 
   .cohortCard {
@@ -28,7 +53,33 @@ $green: #97be47;
     .cardImg {
       height: 120px;
       width: 90%;
+      img {
+        max-width: 80%;
+      }
     }
   }
 
+}
+
+// Styling for techStack  //
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  margin: 20px auto;
+
+  div {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+  }
+
+    .techImg {
+      max-width: 100px;
+      max-height: 100px;
+    }
 }
