@@ -5,6 +5,22 @@ $white: #ffeaaa;
 $yellow: #f4c435;
 $green: #97be47;
 
+* {
+  font-family: "brandon-grotesque", 'Dosis', sans-serif;
+}
+
+body {
+  background-color: $yellow;
+}
+
+/*-----main container---*/
+.mainContainer {
+  background-color: $blue;
+  width: 90%;
+}
+
+@import 'about';
+
 body {
   background-color: $yellow;
 }
@@ -29,7 +45,6 @@ body {
   min-height: 200px;
   margin: 20px auto;
 
-
   .cohortCard {
     width: 30%;
     border: 1px solid red;
@@ -44,4 +59,27 @@ body {
     }
   }
 
+}
+
+// Styling for techStack  //
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  margin: 20px auto;
+
+  div {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+  }
+
+    .techImg {
+      max-width: 100px;
+      max-height: 100px;
+    }
 }
