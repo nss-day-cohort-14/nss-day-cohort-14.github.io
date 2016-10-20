@@ -31,7 +31,7 @@ const populateGrid = (arr) => {
     $( "div.cohortCard" ).hover(function(e) {
       console.log("cohort card mousedover");
       console.log(e.currentTarget);
-      
+
     });
   }
 }
@@ -39,7 +39,7 @@ const populateGrid = (arr) => {
 const loadAbout = () => {
 	let aboutDiv = `
 		<div class="aboutDiv">
-			<p class="aboutText">Hello there. How dew you dew? We are Cohort 14. We are the fourteenth full-time graduating class of the Nashville Software School. We started our journey in May 2016 learning programming languages like Javascript, AngularJS, Sass, and JQuery. After we presented our frontend capstone projects in August, we proceeded to study Node.Js along with various database and server programs. We completed our final capstones in November. After many party parrots, dad-jokes, beer tokens, confusing gifs, and countless puns involving Mountain Dew, we are now Junior MEAN Stack "Dew-velopers" ready to start our new careers in the modern world. Our eternal thanks to our teachers Joe Shepherd and Scott Humphries, our teaching assistants Callan Morrison, Mathew Ostrander, Caitlin Stein, and Christina Young, and especially to everyone at NSS. We will dew you proud.
+			<p class="aboutText">Hello there, how dew you dew? We are Cohort 14, the fourteenth full-time graduating class of the Nashville Software School.  After many party parrots, dad-jokes, beer tokens, confusing gifs, and countless puns involving Mountain Dew, we are now Junior MEAN Stack "Dew-velopers" ready to start our new careers. Our eternal thanks to NSS and especially our teachers Joe Shepherd and Scott Humphries, and our teaching assistants Callan Morrison, Mathew Ostrander, Caitlin Stein, and Christina Young. We will dew you proud.
 			</p>
 		</div>
 	`
