@@ -51,10 +51,10 @@
     {
       "name": "John D. Hamm",
       "githubLink": "https://github.com/JohnDHamm",
-      "portfolioLink": "https://www.johndhamm.com",
+      "portfolioLink": "https://www.johndhammcodes.com",
       "linkedInLink": "https://www.linkedin.com/in/johndhamm",
       "photo": "/img/john-1.jpg",
-      "aboutMe": "Right brain: Let’s make cool apps with great UX!<br/>Left brain: Don’t forget about logic and structure!<br/>John: Relax boys, as a developer we can do both!"
+      "aboutMe": "Right brain: Let’s make cool apps with great UX/UI!<br/>Left brain: Don’t forget about logic and structure!<br/>John: Relax boys, as a developer we can do both!"
     },
     {
       "name": "Vaughn Walters",
@@ -183,6 +183,14 @@
     "linkedInLink": "https://www.linkedin.com/in/laurencherie",
     "photo": "/img/lauren-1.jpg",
     "aboutMe": "Geek. Graphic Designer. Web Developer."
-   }
+   },
+   {
+    "name": "Glenn Spinner",
+    "githubLink": "https://github.com/glenngineer1/",
+    "portfolioLink": "http://glenngineer1.github.io",
+    "linkedInLink": "https://www.linkedin.com/in/glenngineer1",
+    "photo": "/img/glenn-1.jpg",
+    "aboutMe": "I am a former recording engineer/teacher that has gotten into software development because I love a good challenge. I enjoy Nashville Predators hockey, ping pong, hiking and cooking."
+    }
   ]
 }
