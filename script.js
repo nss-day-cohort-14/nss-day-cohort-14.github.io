@@ -20,18 +20,24 @@ const populateGrid = (arr) => {
       <img src=${arr[i].photo}>
       </div>
       <h4>${arr[i].name}</h4>
-      <h5>${arr[i].aboutMe}</h5>
-      <a href="${arr[i].githubLink}">GitHub</a>
-      <a href="${arr[i].portfolioLink}">Portfolio</a>
-      <a href="${arr[i].linkedInLink}">LinkedIn</a>
+      <div class="cardAboutDesc hideAboutDesc">
+        <h5>${arr[i].aboutMe}</h5>
+        <a href="${arr[i].githubLink}">GitHub</a>
+        <a href="${arr[i].portfolioLink}">Portfolio</a>
+        <a href="${arr[i].linkedInLink}">LinkedIn</a>
+      </div>
     </div>
     `
     $('.gridWrap').append(cohortCard)
 
+    // Shows class cohort description on mouse over
+    // Hides class cohort description on mouse out
     $( "div.cohortCard" ).hover(function(e) {
-      console.log("cohort card mousedover");
-      console.log(e.currentTarget);
-
+      let currentDescDiv = $(e.currentTarget)[0].children[2];
+      $(currentDescDiv).removeClass('hideAboutDesc');
+    }, function(e) {
+      let currentDescDiv = $(e.currentTarget)[0].children[2];
+      $(currentDescDiv).addClass('hideAboutDesc');
     });
   }
 }
