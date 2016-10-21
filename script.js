@@ -56,8 +56,22 @@ const loadPage = () => {
   let infoArr = []
   getCohortInfo()
   .then((data) => {
-    console.log("data: ", data)
     infoArr = data.class
+
+    infoArr.sort(function(a, b) {
+      var nameA = a.name.split(' ').slice(-1)[0].toUpperCase(); // ignore upper and lowercase
+      var nameB = b.name.split(' ').slice(-1)[0].toUpperCase(); // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+
+      // names must be equal
+      return 0;
+    });
+
     populateGrid(infoArr)
     loadAbout()
   })
