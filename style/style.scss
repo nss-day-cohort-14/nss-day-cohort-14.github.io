@@ -13,7 +13,11 @@ body {
   background-color: $yellow;
 }
 
+/* modular scss */
 @import 'about';
+@import 'grid';
+@import 'tech';
+@import 'groupPhoto';
 
 body {
   background-color: $yellow;
@@ -50,7 +54,6 @@ body {
 }
 
 
-
 /*-----main container---*/
 .mainContainer {
   margin-top: 0;
@@ -68,72 +71,4 @@ body {
 .techStack,
 .groupPhoto {
   border-top: 3px solid $red;
-}
-
-/*----grid-------*/
-.classGrid {
-
-  .gridWrap {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 90%;
-    min-height: 200px;
-    margin: 0 auto 20px;
-
-    .cohortCard {
-      background-color: $yellow;
-      width: 30%;
-      border: 1px solid red;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      height: auto;
-
-      .cardImg {
-        height: auto;
-        margin-bottom: 2rem;
-        // border: 2px solid green;
-
-        img {
-          width: 100%;
-          min-width: 200px;
-        }
-      }
-
-
-
-      h4 {
-        font-size: 2rem;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.hideAboutDesc {
-  display: none;
-}
-
-/* --- techStack  ---*/
-
-.techStackBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 85%;
-  border: 2px solid black;
-  margin: 32px auto;
-  background-color: white;
-
-  div {
-    display: flex;
-    align-items: center;
-    margin: 2rem;
-  }
-
-  .techImg {
-    max-width: 100px;
-    max-height: 100px;
-  }
 }
