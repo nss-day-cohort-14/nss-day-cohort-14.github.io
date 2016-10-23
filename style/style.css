@@ -1,0 +1,109 @@
+* {
+  font-family: "brandon-grotesque", 'Dosis', sans-serif; }
+
+body {
+  background-color: #f4c435; }
+
+/* modular scss */
+.aboutDiv {
+  margin: 20px auto;
+  background: #ffeaaa;
+  width: 85%; }
+  .aboutDiv .aboutText {
+    color: #2d3f4b;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 2rem; }
+
+/*----grid-------*/
+.classGrid .gridWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 90%;
+  min-height: 200px;
+  margin: 0 auto 20px; }
+  .classGrid .gridWrap .cohortCard {
+    background-color: #f4c435;
+    width: 30%;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: auto; }
+    .classGrid .gridWrap .cohortCard .cardImg {
+      height: auto;
+      margin-bottom: 2rem; }
+      .classGrid .gridWrap .cohortCard .cardImg img {
+        width: 100%;
+        min-width: 200px; }
+    .classGrid .gridWrap .cohortCard h4 {
+      font-size: 2rem;
+      text-align: center; }
+
+.hideAboutDesc {
+  display: none; }
+
+/* --- techStack  ---*/
+.techStackBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  margin: 32px auto;
+  background-color: white; }
+  .techStackBox div {
+    display: flex;
+    align-items: center;
+    margin: 2rem; }
+  .techStackBox .techImg {
+    max-width: 100px;
+    max-height: 100px; }
+
+/* --- group photo ---*/
+.groupPhoto .photoWrap {
+  width: 85%;
+  margin: 32px auto 15px; }
+
+body {
+  background-color: #f4c435;
+  margin: 0; }
+
+/*------top container-----*/
+#headingContainer {
+  position: relative;
+  background: #f4c435; }
+  #headingContainer .topImg {
+    width: 100%;
+    display: block; }
+  #headingContainer #topTitle {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    background: #2d3f4b;
+    color: #ffeaaa;
+    width: 90%;
+    margin: 0px auto; }
+    #headingContainer #topTitle h1 {
+      font-size: 50px;
+      margin: 0;
+      text-align: center;
+      padding: 50px 0 15px; }
+
+/*-----main container---*/
+.mainContainer {
+  margin-top: 0;
+  background-color: #2d3f4b;
+  width: 90%;
+  margin: 0 auto; }
+  .mainContainer .contentContainer {
+    width: 94%;
+    margin: 0 auto; }
+
+.about,
+.techStack,
+.groupPhoto {
+  border-top: 3px solid #f04442; }
+
+/*# sourceMappingURL=style.css.map */

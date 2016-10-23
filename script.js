@@ -17,21 +17,27 @@ const populateGrid = (arr) => {
     let cohortCard = `
     <div class='cohortCard'>
       <div class="cardImg">
-      <img src=${arr[i].photo}>
+        <img src=${arr[i].photo}>
+      </div>
+      <div class="cardAboutDesc hideAboutDesc">
+        <h5>${arr[i].aboutMe}</h5>
+        <a href="${arr[i].githubLink}">GitHub</a>
+        <a href="${arr[i].portfolioLink}">Portfolio</a>
+        <a href="${arr[i].linkedInLink}">LinkedIn</a>
       </div>
       <h4>${arr[i].name}</h4>
-      <h5>${arr[i].aboutMe}</h5>
-      <a href="${arr[i].githubLink}">GitHub</a>
-      <a href="${arr[i].portfolioLink}">Portfolio</a>
-      <a href="${arr[i].linkedInLink}">LinkedIn</a>
     </div>
     `
     $('.gridWrap').append(cohortCard)
 
-    $( "div.cohortCard" ).hover(function(e) {
-      console.log("cohort card mousedover");
-      console.log(e.currentTarget);
-
+    // Shows class cohort description on mouse over
+    // Hides class cohort description on mouse out
+    $( ".cohortCard" ).hover(function(e) {
+      let currentDescDiv = $(e.currentTarget)[0].children[2];
+      $(currentDescDiv).removeClass('hideAboutDesc');
+    }, function(e) {
+      let currentDescDiv = $(e.currentTarget)[0].children[2];
+      $(currentDescDiv).addClass('hideAboutDesc');
     });
   }
 }
@@ -50,8 +56,22 @@ const loadPage = () => {
   let infoArr = []
   getCohortInfo()
   .then((data) => {
-    console.log("data: ", data)
     infoArr = data.class
+
+    infoArr.sort(function(a, b) {
+      var nameA = a.name.split(' ').slice(-1)[0].toUpperCase(); // ignore upper and lowercase
+      var nameB = b.name.split(' ').slice(-1)[0].toUpperCase(); // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+
+      // names must be equal
+      return 0;
+    });
+
     populateGrid(infoArr)
     loadAbout()
   })
