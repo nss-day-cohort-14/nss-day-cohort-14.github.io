@@ -191,6 +191,14 @@
     "linkedInLink": "https://www.linkedin.com/in/glenngineer1",
     "photo": "/img/glenn-1.jpg",
     "aboutMe": "I am a former recording engineer/teacher that has gotten into software development because I love a good challenge. I enjoy Nashville Predators hockey, ping pong, hiking and cooking."
-    }
+  },
+  {
+    "name": "Alex Horton",
+    "githubLink": "https://github.com/alexhortonmusic",
+    "portfolioLink": "http://www.alexhorton.co/",
+    "linkedInLink": "www.linkedin.com/in/alexhortondev",
+    "photo": "/img/alexh-1.jpg",
+    "aboutMe": "C is for Coding, and that's good enough for me. Also, cheese."
+  }
   ]
 }
