@@ -21,38 +21,47 @@ body {
 }
 
 /*------top container-----*/
-.topImg {
-  width: 100%;
-  display: block;
-}
 
 #headingContainer {
   position: relative;
   background: $yellow;
-}
 
-#topTitle {
-  position: absolute;
-  bottom: 0;
-  left: 5%;
-  background: $blue;
-  color: $white;
-  width: 90%;
-  margin: 0px auto;
+  .topImg {
+    width: 100%;
+    display: block;
+  }
 
-  h1 {
-    font-size: 50px;
-    margin: 0;
-    text-align: center;
-    padding: 50px 0 15px
+  #topTitle {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    background: $blue;
+    color: $white;
+    width: 90%;
+    margin: 0px auto;
+
+    h1 {
+      font-size: 50px;
+      margin: 0;
+      text-align: center;
+      padding: 50px 0 15px
+    }
   }
 }
 
 
+
 /*-----main container---*/
 .mainContainer {
+  margin-top: 0;
   background-color: $blue;
   width: 90%;
+  margin: 0 auto;
+
+  .contentContainer {
+    width: 94%;
+    margin: 0 auto;
+  }
 }
 
 .about,
@@ -60,45 +69,62 @@ body {
 .groupPhoto {
   border-top: 3px solid $red;
 }
+
 /*----grid-------*/
-.gridWrap {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 85%;
-  min-height: 200px;
-  margin: 20px auto;
+.classGrid {
 
-  .cohortCard {
-    width: 30%;
-    border: 1px solid red;
-    margin-top: 10px;
+  .gridWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90%;
+    min-height: 200px;
+    margin: 0 auto 20px;
 
-    .cardImg {
-      height: 120px;
-      width: 90%;
-      img {
-        max-width: 80%;
+    .cohortCard {
+      background-color: $yellow;
+      width: 30%;
+      border: 1px solid red;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      height: auto;
+
+      .cardImg {
+        height: auto;
+        margin-bottom: 2rem;
+        // border: 2px solid green;
+
+        img {
+          width: 100%;
+          min-width: 200px;
+        }
+      }
+
+
+
+      h4 {
+        font-size: 2rem;
+        text-align: center;
       }
     }
   }
-
 }
 
 .hideAboutDesc {
   display: none;
 }
 
-// Styling for techStack  //
+/* --- techStack  ---*/
 
-.techStack {
+.techStackBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 85%;
   border: 2px solid black;
-  margin: 20px auto;
+  margin: 32px auto;
+  background-color: white;
 
   div {
     display: flex;
@@ -106,8 +132,8 @@ body {
     margin: 2rem;
   }
 
-    .techImg {
-      max-width: 100px;
-      max-height: 100px;
-    }
+  .techImg {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
