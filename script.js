@@ -15,15 +15,15 @@ const getCohortInfo = () => {
 const populateGrid = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     let cohortCard = `
-    <div class='cohortCard'>
+    <div class="cohortCard">
       <div class="cardImg">
         <img src=${arr[i].photo}>
-      </div>
-      <div class="cardAboutDesc hideAboutDesc">
-        <h5>${arr[i].aboutMe}</h5>
-        <a href="${arr[i].githubLink}">GitHub</a>
-        <a href="${arr[i].portfolioLink}">Portfolio</a>
-        <a href="${arr[i].linkedInLink}">LinkedIn</a>
+        <div class="cardAboutDesc hideAboutDesc">
+          <h5>${arr[i].aboutMe}</h5>
+          <a href="${arr[i].githubLink}">GitHub</a>
+          <a href="${arr[i].portfolioLink}">Portfolio</a>
+          <a href="${arr[i].linkedInLink}">LinkedIn</a>
+        </div>
       </div>
       <h4>${arr[i].name}</h4>
     </div>
@@ -32,11 +32,11 @@ const populateGrid = (arr) => {
 
     // Shows class cohort description on mouse over
     // Hides class cohort description on mouse out
-    $( ".cohortCard" ).hover(function(e) {
-      let currentDescDiv = $(e.currentTarget)[0].children[2];
+    $(".cohortCard").hover(function(e) {
+      let currentDescDiv = $(e.currentTarget).find(".cardAboutDesc");
       $(currentDescDiv).removeClass('hideAboutDesc');
     }, function(e) {
-      let currentDescDiv = $(e.currentTarget)[0].children[2];
+      let currentDescDiv = $(e.currentTarget).find(".cardAboutDesc");
       $(currentDescDiv).addClass('hideAboutDesc');
     });
   }
