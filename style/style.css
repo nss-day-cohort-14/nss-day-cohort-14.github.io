@@ -49,7 +49,8 @@ body {
         background: rgba(150, 150, 150, 0.8); }
         .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc p {
           color: #2d3f4b;
-          width: 80%; }
+          width: 80%;
+          margin: 0 auto; }
         .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc .links {
           display: flex;
           flex-direction: row;
