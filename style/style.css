@@ -7,6 +7,7 @@ body {
 
 /* modular scss */
 .aboutDiv {
+  border: 2px solid black;
   margin: 20px auto;
   background: #ffeaaa;
   width: 85%; }
@@ -94,6 +95,7 @@ body {
 
 /* --- group photo ---*/
 .groupPhoto .photoWrap {
+  border: 2px solid black;
   margin: 32px auto 15px; }
   .groupPhoto .photoWrap img {
     display: block;
