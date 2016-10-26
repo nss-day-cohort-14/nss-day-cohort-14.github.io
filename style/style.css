@@ -11,6 +11,7 @@ body {
   background: #ffeaaa;
   width: 85%; }
   .aboutDiv .aboutText {
+    border: 2px solid black;
     color: #2d3f4b;
     padding: 15px 20px;
     text-align: center;
@@ -47,26 +48,24 @@ body {
         font-size: 20px;
         top: 0rem;
         background: rgba(150, 150, 150, 0.8); }
-        .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div {
-          margin: auto 0; }
-          .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div p {
+        .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div p {
+          color: #2d3f4b;
+          width: 80%;
+          margin: 2rem auto; }
+        .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around; }
+          .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links a {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            transition: 0.2s; }
+          .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links a:hover {
             color: #2d3f4b;
-            width: 80%;
-            margin: 2rem auto; }
-          .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around; }
-            .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links a {
-              display: block;
-              text-decoration: none;
-              font-size: 20px;
-              color: white;
-              transition: 0.2s; }
-            .classGrid .gridWrap .cohortCard .cardImg .cardAboutDesc div .links a:hover {
-              color: #2d3f4b;
-              transition: 0.2s; }
+            transition: 0.2s; }
     .classGrid .gridWrap .cohortCard h4 {
       font-size: 2rem;
       text-align: center; }
@@ -96,6 +95,7 @@ body {
 .groupPhoto .photoWrap {
   margin: 32px auto 15px; }
   .groupPhoto .photoWrap img {
+    border: 2px solid black;
     display: block;
     margin: 0 auto;
     width: 85%;
