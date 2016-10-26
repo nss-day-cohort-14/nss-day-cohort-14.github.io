@@ -11,6 +11,7 @@ $green: #97be47;
 
 body {
   background-color: $yellow;
+  margin: 0;
 }
 
 /* modular scss */
@@ -18,11 +19,6 @@ body {
 @import 'grid';
 @import 'tech';
 @import 'groupPhoto';
-
-body {
-  background-color: $yellow;
-  margin: 0;
-}
 
 /*------top container-----*/
 
