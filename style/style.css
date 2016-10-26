@@ -94,7 +94,6 @@ body {
 
 /* --- group photo ---*/
 .groupPhoto .photoWrap {
-  border: 2px solid black;
   margin: 32px auto 15px; }
   .groupPhoto .photoWrap img {
     border: 2px solid black;
