@@ -31,7 +31,7 @@
         .cardAboutDesc {
           z-index: 100;
           width: 100%;
-          height: 98.5%;
+          height: 99%;
           position: absolute;
           text-align: center;
           color: white;
@@ -39,33 +39,38 @@
           top: 0rem;
           background: rgba(150,150,150,.8);
 
-          p {
-            color: $blue;
-            width: 80%;
-            margin: 0 auto;
-          }
+          div {
+            margin: auto 0;
 
-          .links {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-
-            a {
-              display: block;
-              text-decoration: none;
-              font-size: 20px;
-              color: white;
-              transition: 0.2s;
-            }
-
-            a:hover {
+            p {
               color: $blue;
-              transition: 0.2s;
-              // text-shadow: 1px 1px black;
+              width: 80%;
+              margin: 2rem auto;
+            }
+
+            .links {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-around;
+
+              a {
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                transition: 0.2s;
+              }
+
+              a:hover {
+                color: $blue;
+                transition: 0.2s;
+                // text-shadow: 1px 1px black;
+              }
             }
           }
-        }
+          }
+
       }
 
 
