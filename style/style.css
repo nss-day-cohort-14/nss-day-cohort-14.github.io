@@ -7,7 +7,6 @@ body {
 
 /* modular scss */
 .aboutDiv {
-  border: 2px solid black;
   margin: 20px auto;
   background: #ffeaaa;
   width: 85%; }
