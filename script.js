@@ -19,11 +19,13 @@ const populateGrid = (arr) => {
       <div class="cardImg">
         <img src=${arr[i].photo}>
         <div class="cardAboutDesc hideAboutDesc">
-          <p>${arr[i].aboutMe}</p>
-          <div class='links'>
-            <a href="${arr[i].githubLink}">GitHub</a>
-            <a href="${arr[i].portfolioLink}">Portfolio</a>
-            <a href="${arr[i].linkedInLink}">LinkedIn</a>
+          <div>
+            <p>${arr[i].aboutMe}</p>
+            <div class='links'>
+              <a href="${arr[i].githubLink}">GitHub</a>
+              <a href="${arr[i].portfolioLink}">Portfolio</a>
+              <a href="${arr[i].linkedInLink}">LinkedIn</a>
+            </div>
           </div>
         </div>
       </div>
