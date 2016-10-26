@@ -2,11 +2,13 @@
 .groupPhoto {
 
   .photoWrap {
-    width: 85%;
     margin: 32px auto 15px;
 
     img {
-
+      display: block;
+      margin: 0 auto;
+      width: 85%;
+      min-width: 700px;
     }
   }
 }
