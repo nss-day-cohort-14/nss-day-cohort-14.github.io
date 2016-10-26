@@ -12,7 +12,7 @@
     .cohortCard {
       background-color: $yellow;
       width: 30%;
-      border: 1px solid red;
+      // border: 1px solid red;
       margin-top: 10px;
       margin-bottom: 30px;
       height: auto;
@@ -27,31 +27,46 @@
           width: 100%;
           min-width: 200px;
         }
-      }
 
         .cardAboutDesc {
           z-index: 100;
           width: 100%;
-          height: 94%;
+          height: 98.5%;
           position: absolute;
           text-align: center;
           color: white;
           font-size: 20px;
-          top: .5rem;
-          background: rgba(150,150,150,.9);
+          top: 0rem;
+          background: rgba(150,150,150,.8);
 
-          a {
-            display: block;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
+          p {
+            color: $blue;
+            width: 80%;
           }
 
-          a:hover {
-            color: blue;
-            text-shadow: 1px 1px black;
+          .links {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            a {
+              display: block;
+              text-decoration: none;
+              font-size: 20px;
+              color: white;
+              transition: 0.2s;
+            }
+
+            a:hover {
+              color: $blue;
+              transition: 0.2s;
+              // text-shadow: 1px 1px black;
+            }
           }
         }
+      }
+
 
       h4 {
         font-size: 2rem;
