@@ -8,7 +8,7 @@
 #### Advisors -  
 [Caitlin Stein](https://github.com/C-Stein)  
 [Callan Morrison](https://github.com/morecallan)  
-[Christina Young](https://github.com/ChristinaJYoung) 
+[Christina Young](https://github.com/ChristinaJYoung)  
 [Mathew Ostrander](https://github.com/MAOstrander)  
 
 #### Cohort 14 Website Contributors -  
