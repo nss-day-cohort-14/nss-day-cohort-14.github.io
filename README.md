@@ -2,8 +2,8 @@
 
 ## [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
 #### Instructors -  
-[Joe Shephard](https://github.com/JoeShep)(Front-End)  
-[Scott Humphries](https://github.com/sscotth)(Back-End)  
+[Joe Shephard](https://github.com/JoeShep) (Front-End)  
+[Scott Humphries](https://github.com/sscotth) (Back-End)  
 
 #### Advisors -  
 [Caitlin Stein](https://github.com/C-Stein)  
