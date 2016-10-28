@@ -67,10 +67,10 @@
     {
       "name": "Eric Denton",
       "githubLink": "https://github.com/iamericanartist",
-      "portfolioLink": "https://www.iamericanartist.com/",
+      "portfolioLink": "https://iamericanartist.github.io/",
       "linkedInLink": "https://www.linkedin.com/in/iamericanartist",
       "photo": "/img/eric-1.jpg",
-      "aboutMe": "I am a 'Nashville Native,' pun lover, Racket sports enthusiast, and creative guy just trying to live the good life with my family!"
+      "aboutMe": "I am a 'Nashville Native,' pun lover, racket sports enthusiast, and creative guy just trying to live the good life with my family!"
     },
     {
       "name": "Tim Creasy",
@@ -178,7 +178,7 @@
    },
    {
     "name": "Lauren Cherie Smith",
-    "githubLink": "github.com/laurensaurenson",
+    "githubLink": "https://github.com/laurensaurenson",
     "portfolioLink": "laurencherie.com",
     "linkedInLink": "https://www.linkedin.com/in/laurencherie",
     "photo": "/img/lauren-1.jpg",
