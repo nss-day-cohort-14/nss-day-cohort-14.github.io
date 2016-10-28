@@ -1,37 +1,43 @@
-## [nss-day-cohort-14.github.io](https://nss-day-cohort-14.github.io/) Click to visit
+# [nss-day-cohort-14.github.io](https://nss-day-cohort-14.github.io/) Click to visit
 
-### [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
-##### Instructors - 
-[Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End)  
-##### Advisors - 
-[Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), [Christina Young](https://github.com/ChristinaJYoung), and [Mathew Ostrander](https://github.com/MAOstrander)  
-##### Cohort 14 Website Contributors - 
-[Alex Horton](https://github.com/alexhortonmusic) (Project Lead),
-[Tyler Daniel](https://github.com/iamtylerd),
-[Eric Denton](https://github.com/iamericanartist),
-[John D. Hamm](https://github.com/JohnDHamm),
-[Tim Creasy](https://github.com/timcreasy),
-[Dominic Serrano](https://github.com/DominicSerranoC14),
-[Lauren Cherie Smith](https://github.com/laurensaurenson) (Design Lead)
+## [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
+#### Instructors -  
+[Joe Shephard](https://github.com/JoeShep)(Front-End)  
+[Scott Humphries](https://github.com/sscotth)(Back-End)  
+
+#### Advisors -  
+[Caitlin Stein](https://github.com/C-Stein)  
+[Callan Morrison](https://github.com/morecallan)  
+[Christina Young](https://github.com/ChristinaJYoung) 
+[Mathew Ostrander](https://github.com/MAOstrander)  
+
+#### Cohort 14 Website Contributors -  
+[Alex Horton](https://github.com/alexhortonmusic) (Project Lead)  
+[Tyler Daniel](https://github.com/iamtylerd)  
+[Eric Denton](https://github.com/iamericanartist)  
+[John D. Hamm](https://github.com/JohnDHamm)  
+[Tim Creasy](https://github.com/timcreasy)  
+[Dominic Serrano](https://github.com/DominicSerranoC14)  
+[Lauren Cherie Smith](https://github.com/laurensaurenson) (Design Lead)  
 
 ***
 
 <p align="center">
-  <a href="https://github.com/nss-day-cohort-14/nss-day-cohort-14.github.io/issues">
-    <img src="https://img.shields.io/github/issues/nss-day-cohort-14/nss-day-cohort-14.github.io.svg"
-         alt="GitHub Issues">
-  </a>
-  <a href="https://github.com/nss-day-cohort-14/nss-day-cohort-14.github.io/stargazers">
-    <img src="https://img.shields.io/github/stars/nss-day-cohort-14/nss-day-cohort-14.github.io.svg"
-         alt="GitHub Forks">
-  </a>
   <a href="https://github.com/nss-day-cohort-14/nss-day-cohort-14.github.io/stargazers">
     <img src="https://img.shields.io/github/stars/nss-day-cohort-14/nss-day-cohort-14.github.io.svg"
          alt="GitHub Stars">
   </a>
+  <a href="https://github.com/nss-day-cohort-14/nss-day-cohort-14.github.io/network">
+    <img src="https://img.shields.io/github/forks/nss-day-cohort-14/nss-day-cohort-14.github.io.svg"
+         alt="GitHub Forks">
+  </a>
   <a href="https://raw.githubusercontent.com/nss-day-cohort-14/nss-day-cohort-14.github.io/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg"
          alt="MIT License">
+  </a>
+  <a href="https://github.com/nss-day-cohort-14/nss-day-cohort-14.github.io/issues">
+    <img src="https://img.shields.io/github/issues/nss-day-cohort-14/nss-day-cohort-14.github.io.svg"
+         alt="GitHub Issues">
   </a>
 </p>
 
@@ -51,9 +57,8 @@ We also learned the key features and capabilities of Javascript and the MEAN sta
 
 Sincerely,
 
-##### [Cohort 14](https://github.com/orgs/nss-day-cohort-14/people)  
+#### [Cohort 14](https://github.com/orgs/nss-day-cohort-14/people)  
 
 <div>
-  <h3 align="center">Proud Member:</h3>
-  <a href="https://nss-day-cohort-14.github.io/"><img align="center" src="images/GraphicsGroupShotC14.jpg"></a>
+  <a href="https://nss-day-cohort-14.github.io/"><img align="center" src="img/Group/GraphicsGroupShotC14.jpg"></a>
 </div>
