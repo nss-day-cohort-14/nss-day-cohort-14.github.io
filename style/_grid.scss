@@ -1,0 +1,86 @@
+/*----grid-------*/
+.classGrid {
+
+  .gridWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90%;
+    min-height: 200px;
+    margin: 0 auto 20px;
+
+    .cohortCard {
+      background-color: $yellow;
+      width: 30%;
+      // border: 1px solid red;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      height: auto;
+
+      .cardImg {
+        height: auto;
+        margin-bottom: 2rem;
+        position: relative;
+        // border: 2px solid green;
+
+        img {
+          width: 100%;
+          min-width: 200px;
+        }
+
+        .cardAboutDesc {
+          z-index: 100;
+          width: 100%;
+          height: 99%;
+          position: absolute;
+          text-align: center;
+          color: white;
+          font-size: 20px;
+          top: 0rem;
+          background: rgba(150,150,150,.8);
+
+          div {
+
+            p {
+              color: $blue;
+              width: 80%;
+              margin: 2rem auto;
+            }
+
+            .links {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-around;
+
+              a {
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                transition: 0.2s;
+              }
+
+              a:hover {
+                color: $blue;
+                transition: 0.2s;
+                // text-shadow: 1px 1px black;
+              }
+            }
+          }
+          }
+
+      }
+
+
+      h4 {
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.hideAboutDesc {
+  display: none;
+}

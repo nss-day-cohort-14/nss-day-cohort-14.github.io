@@ -5,27 +5,66 @@ $white: #ffeaaa;
 $yellow: #f4c435;
 $green: #97be47;
 
+* {
+  font-family: "brandon-grotesque", 'Dosis', sans-serif;
+}
 
-/*----grid-------*/
-.gridWrap {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 85%;
-  min-height: 200px;
-  border: 2px solid black;
-  margin: 20px auto;
-  background-color:
+body {
+  background-color: $yellow;
+  margin: 0;
+}
 
-  .cohortCard {
-    width: 30%;
-    border: 1px solid red;
-    margin-top: 10px;
+/* modular scss */
+@import 'about';
+@import 'grid';
+@import 'tech';
+@import 'groupPhoto';
 
-    .cardImg {
-      height: 120px;
-      width: 90%;
-    }
+/*------top container-----*/
+
+#headingContainer {
+  position: relative;
+  background: $yellow;
+
+  .topImg {
+    width: 100%;
+    display: block;
   }
 
+  #topTitle {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    background: $blue;
+    color: $white;
+    width: 90%;
+    margin: 0px auto;
+
+    h1 {
+      font-size: 50px;
+      margin: 0;
+      text-align: center;
+      padding: 50px 0 15px
+    }
+  }
+}
+
+
+/*-----main container---*/
+.mainContainer {
+  margin-top: 0;
+  background-color: $blue;
+  width: 90%;
+  margin: 0 auto;
+
+  .contentContainer {
+    width: 94%;
+    margin: 0 auto;
+  }
+}
+
+.about,
+.techStack,
+.groupPhoto {
+  border-top: 3px solid $red;
 }

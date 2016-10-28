@@ -5,6 +5,7 @@
       "githubLink": "https://github.com/Zippoffer",
       "portfolioLink": "http://zippoffer.github.io",
       "linkedInLink": "https://www.linkedin.com/in/zippoffer",
+      "photo": "/img/chris-1.jpg",
       "aboutMe": "I've been a carpenter, an artist, and an electrician. I am a father and a husband. I love programming, because it allows me to create and learn continuously."
     },
     {
@@ -12,6 +13,7 @@
       "githubLink": "https://github.com/iamtylerd",
       "portfolioLink": "http://www.tylerdaniel.com",
       "linkedInLink": "https://www.linkedin.com/in/tyler-daniel-67991698",
+      "photo": "/img/tyler-1.jpg",
       "aboutMe": "Things I enjoy: sports (I play in a wood bat baseball league and a weekly basketball league), movies/tv (only good tv, though!), technology, food, traveling, video games, power lifting, food, beer, learning things on Youtube, and food."
     },
     {
@@ -19,6 +21,7 @@
       "githubLink": "https://www.github.com/mmeadow3",
       "portfolioLink": "http://www.mikemeadowsdev.com",
       "linkedInLink": "https://www.linkedin.com/in/mikemeadows2",
+      "photo": "/img/mike-1.jpg",
       "aboutMe": "Mike is a former scientist looking to convert his passion for logic into programming.  Also, he is a big fan of talking about himself in third person."
     },
     {
@@ -26,6 +29,7 @@
       "githubLink": "https://github.com/jackmoch",
       "portfolioLink": "https://jackmoch.github.io/",
       "linkedInLink": "https://linkedin.com/in/jackmocherman",
+      "photo": "/img/jack-1.jpg",
       "aboutMe": "I am within 5 feet of music, books, code, coffee, or some combination of the four at any given time!"
     },
     {
@@ -33,6 +37,7 @@
       "githubLink": "https://github.com/DominicSerranoC14",
       "portfolioLink": "http://www.dominicserrano.com",
       "linkedInLink": "https://www.linkedin.com/in/dominic-serrano",
+      "photo": "/img/dominic-1.jpg",
       "aboutMe": "When I am not programming or learning more about my current project, I enjoy playing ping-pong, soccer, and sampling craft beers."
     },
     {
@@ -40,20 +45,23 @@
       "githubLink": "https://github.com/DanielC2008",
       "portfolioLink": "http://www.danielchapdelaine.com",
       "linkedInLink": "https://www.linkedin.com/in/daniel-chapdelaine-595a09126",
+      "photo": "/img/daniel-1.jpg",
       "aboutMe": "Status Code: 418"
     },
     {
       "name": "John D. Hamm",
       "githubLink": "https://github.com/JohnDHamm",
-      "portfolioLink": "https://www.johndhamm.com",
+      "portfolioLink": "https://www.johndhammcodes.com",
       "linkedInLink": "https://www.linkedin.com/in/johndhamm",
-      "aboutMe": "Right brain: Let’s make cool apps with great UX!<br/>Left brain: Don’t forget about logic and structure!<br/>John: Relax boys, as a developer we can do both!"
+      "photo": "/img/john-1.jpg",
+      "aboutMe": "Right brain: Let’s make cool apps with great UX/UI!<br/>Left brain: Don’t forget about logic and structure!<br/>John: Relax boys, as a developer we can do both!"
     },
     {
       "name": "Vaughn Walters",
       "githubLink": "https://github.com/vaughnwalters",
       "portfolioLink": "https://www.vaughnwalters.com",
       "linkedInLink": "https://www.linkedin.com/in/vaughnwalters",
+      "photo": "/img/vaughn-1.jpg",
       "aboutMe": "I like to learn new tricks (food, songs, web things) and keep my brain and body healthy and active.  I try to be a good dude and make cool stuff."
     },
     {
@@ -61,6 +69,7 @@
       "githubLink": "https://github.com/iamericanartist",
       "portfolioLink": "https://www.iamericanartist.com/",
       "linkedInLink": "https://www.linkedin.com/in/iamericanartist",
+      "photo": "/img/eric-1.jpg",
       "aboutMe": "I am a 'Nashville Native,' pun lover, Racket sports enthusiast, and creative guy just trying to live the good life with my family!"
     },
     {
@@ -68,6 +77,7 @@
       "githubLink": "https://github.com/timcreasy",
       "portfolioLink": "http://timcreasy.com/",
       "linkedInLink": "https://www.linkedin.com/in/tim-creasy",
+      "photo": "/img/tim-1.jpg",
       "aboutMe": "Tim Creasy, originally from North Carolina, has always had a passion for technology, being self taught in C and Objective-C.  Tim is constantly driven by the fact that the only limit to the software he writes is himself."
     },
     {
@@ -75,6 +85,7 @@
       "githubLink": "https://github.com/bmdoane",
       "portfolioLink": "http://briandoane.me",
       "linkedInLink": "https://www.linkedin.com/in/brianmdoane",
+      "photo": "/img/brian-1.jpg",
       "aboutMe": "Buy the ticket, take the ride ..."
     },
     {
@@ -82,6 +93,7 @@
       "githubLink": "https://github.com/wacraven",
       "portfolioLink": "http://walexcraven.com",
       "linkedInLink": "https://www.linkedin.com/in/alex-craven-44466865",
+      "photo": "/img/alexc-1.jpg",
       "aboutMe": "I have a bad feeling about this..."
     },
     {
@@ -89,6 +101,7 @@
       "githubLink": "https://github.com/tkswann2",
       "portfolioLink": "http://www.swanntoo.com",
       "linkedInLink": "https://www.linkedin.com/in/tkswann2",
+      "photo": "/img/swann-1.jpg",
       "aboutMe": "School of hard-knocks chef with a passion for technology turned software developer."
     },
     {
@@ -96,6 +109,7 @@
       "githubLink": "https://github.com/ZentoBits",
       "portfolioLink": "http://www.zakkgeorge.com",
       "linkedInLink": "https://www.linkedin.com/in/zakk-george-79530384",
+      "photo": "/img/zakk-1.jpg",
       "aboutMe": "I love software development, video games, and a glass of scotch."
     },
     {
@@ -103,6 +117,7 @@
       "githubLink": "https://github.com/lathammatt",
       "portfolioLink": "http://www.mattlatham.net",
       "linkedInLink": "https://www.linkedin/in/matt-latham-code-dev",
+      "photo": "/img/matt-1.jpg",
       "aboutMe": "Web Developer. Musician. Writer. Aspiring Bond Villain."
     },
     {
@@ -110,6 +125,7 @@
       "githubLink": "https://github.com/jmphilips",
       "portfolioLink": "http://www.jmphilips.github.io",
       "linkedInLink": "https://www.linkedin.com/in/jmichaelphilips",
+      "photo": "/img/josh-1.jpg",
       "aboutMe": "I am a software developer currently  based in Nashville, Tennessee."
     },
     {
@@ -117,6 +133,7 @@
       "githubLink": "https://github.com/wmfwarren",
       "portfolioLink": "http://www.marshallfw.com",
       "linkedInLink": "https://www.linkedin.com/in/marshall-friskics-warren-52367396",
+      "photo": "/img/marshall-1.jpg",
       "aboutMe": "I am a software developer currently  based in Nashville, Tennessee"
     },
     {
@@ -124,6 +141,7 @@
       "githubLink": "https://github.com/cjt1105",
       "portfolioLink": "https://cjt1105.github.io",
       "linkedInLink": "https://www.linkedin.com/in/c-j-tate-50a8a6b3",
+      "photo": "/img/cj.jpg",
       "aboutMe": "Passionate about learning, problem solving, and everything code. Can't wait to begin my career as a developer."
     },
     {
@@ -131,6 +149,7 @@
       "githubLink": "https://github.com/danrday",
       "portfolioLink": "http://www.danrday.com",
       "linkedInLink": "https://www.linkedin.com/in/dan-day-11992821",
+      "photo": "/img/dan-1.jpg",
       "aboutMe": "Developer interested in data visualization and UX, with a professional background in film editing and motion design."
     },
     {
@@ -138,6 +157,7 @@
      "githubLink": "https://github.com/iobg",
      "portfolioLink": "bankshumphreys.com",
      "linkedInLink": "https://www.linkedin.com/in/banks-humphreys",
+     "photo": "/img/banks-1.jpg",
      "aboutMe": "I love learning new technologies, and I'm not satisfied until mastery is achieved. Always excited to take on something new and grow from it."
    },
    {
@@ -145,6 +165,7 @@
      "githubLink": "https://github.com/daveharmswebdev",
      "portfolioLink": "https://daveharmswebdev.github.io",
      "linkedInLink": "https://www.linkedin.com/in/walter-harms-a71045103",
+     "photo": "/img/dave-1.jpg",
      "aboutMe": "Full Stack Developer with 9 years of healthcare experience. Father, Landlord, and practitioner of crossfit."
    },
    {
@@ -152,6 +173,7 @@
      "githubLink": "https://github.com/JameyMcAuliffe",
      "portfolioLink": "jameymcauliffe.com",
      "linkedInLink": "https://www.linkedin.com/in/jamey-mcauliffe-00623a127?trk=hp-identity-name",
+     "photo": "/img/jamey-1.jpg",
      "aboutMe": "Just another coder trying to code in this coded up world"
    },
    {
@@ -159,7 +181,24 @@
     "githubLink": "github.com/laurensaurenson",
     "portfolioLink": "laurencherie.com",
     "linkedInLink": "https://www.linkedin.com/in/laurencherie",
+    "photo": "/img/lauren-1.jpg",
     "aboutMe": "Geek. Graphic Designer. Web Developer."
-   }
+   },
+   {
+    "name": "Glenn Spinner",
+    "githubLink": "https://github.com/glenngineer1/",
+    "portfolioLink": "http://glenngineer1.github.io",
+    "linkedInLink": "https://www.linkedin.com/in/glenngineer1",
+    "photo": "/img/glenn-1.jpg",
+    "aboutMe": "I am a former recording engineer/teacher that has gotten into software development because I love a good challenge. I enjoy Nashville Predators hockey, ping pong, hiking and cooking."
+  },
+  {
+    "name": "Alex Horton",
+    "githubLink": "https://github.com/alexhortonmusic",
+    "portfolioLink": "http://www.alexhorton.co/",
+    "linkedInLink": "www.linkedin.com/in/alexhortondev",
+    "photo": "/img/alexh-1.jpg",
+    "aboutMe": "C is for Coding, and that's good enough for me. Also, cheese."
+  }
   ]
 }

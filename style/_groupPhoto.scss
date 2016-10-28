@@ -1,0 +1,15 @@
+/* --- group photo ---*/
+.groupPhoto {
+
+  .photoWrap {
+    margin: 32px auto 15px;
+
+    img {
+      border: 2px solid black;
+      display: block;
+      margin: 0 auto;
+      width: 85%;
+      min-width: 700px;
+    }
+  }
+}
