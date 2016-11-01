@@ -37,7 +37,7 @@
       "githubLink": "https://github.com/DominicSerranoC14",
       "portfolioLink": "http://www.dominicserrano.com",
       "linkedInLink": "https://www.linkedin.com/in/dominic-serrano",
-      "photo": "/img/dominic-1.jpg",
+      "photo": "/img/dominic-2.jpg",
       "aboutMe": "When I am not programming or learning more about my current project, I enjoy playing ping-pong, soccer, and sampling craft beers."
     },
     {
@@ -155,7 +155,7 @@
     {
      "name": "Banks Humphreys",
      "githubLink": "https://github.com/iobg",
-     "portfolioLink": "bankshumphreys.com",
+     "portfolioLink": "http://bankshumphreys.com",
      "linkedInLink": "https://www.linkedin.com/in/banks-humphreys",
      "photo": "/img/banks-1.jpg",
      "aboutMe": "I love learning new technologies, and I'm not satisfied until mastery is achieved. Always excited to take on something new and grow from it."
@@ -171,17 +171,17 @@
    {
      "name": "Jamey McAuliffe",
      "githubLink": "https://github.com/JameyMcAuliffe",
-     "portfolioLink": "jameymcauliffe.com",
+     "portfolioLink": "http://jameymcauliffe.com",
      "linkedInLink": "https://www.linkedin.com/in/jamey-mcauliffe-00623a127?trk=hp-identity-name",
      "photo": "/img/jamey-1.jpg",
      "aboutMe": "Just another coder trying to code in this coded up world"
    },
    {
     "name": "Lauren Cherie Smith",
-    "githubLink": "github.com/laurensaurenson",
-    "portfolioLink": "laurencherie.com",
+    "githubLink": "https://github.com/laurensaurenson",
+    "portfolioLink": "http://laurencherie.com",
     "linkedInLink": "https://www.linkedin.com/in/laurencherie",
-    "photo": "/img/lauren-1.jpg",
+    "photo": "/img/lauren-2.jpg",
     "aboutMe": "Geek. Graphic Designer. Web Developer."
    },
    {
@@ -196,7 +196,7 @@
     "name": "Alex Horton",
     "githubLink": "https://github.com/alexhortonmusic",
     "portfolioLink": "http://www.alexhorton.co/",
-    "linkedInLink": "www.linkedin.com/in/alexhortondev",
+    "linkedInLink": "https://www.linkedin.com/in/alexhortondev",
     "photo": "/img/alexh-1.jpg",
     "aboutMe": "C is for Coding, and that's good enough for me. Also, cheese."
   }
