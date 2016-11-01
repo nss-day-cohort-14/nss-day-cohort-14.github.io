@@ -155,7 +155,7 @@
     {
      "name": "Banks Humphreys",
      "githubLink": "https://github.com/iobg",
-     "portfolioLink": "bankshumphreys.com",
+     "portfolioLink": "http://bankshumphreys.com",
      "linkedInLink": "https://www.linkedin.com/in/banks-humphreys",
      "photo": "/img/banks-1.jpg",
      "aboutMe": "I love learning new technologies, and I'm not satisfied until mastery is achieved. Always excited to take on something new and grow from it."
@@ -171,7 +171,7 @@
    {
      "name": "Jamey McAuliffe",
      "githubLink": "https://github.com/JameyMcAuliffe",
-     "portfolioLink": "jameymcauliffe.com",
+     "portfolioLink": "http://jameymcauliffe.com",
      "linkedInLink": "https://www.linkedin.com/in/jamey-mcauliffe-00623a127?trk=hp-identity-name",
      "photo": "/img/jamey-1.jpg",
      "aboutMe": "Just another coder trying to code in this coded up world"
@@ -179,9 +179,9 @@
    {
     "name": "Lauren Cherie Smith",
     "githubLink": "https://github.com/laurensaurenson",
-    "portfolioLink": "laurencherie.com",
+    "portfolioLink": "http://laurencherie.com",
     "linkedInLink": "https://www.linkedin.com/in/laurencherie",
-    "photo": "/img/lauren-1.jpg",
+    "photo": "/img/lauren-2.jpg",
     "aboutMe": "Geek. Graphic Designer. Web Developer."
    },
    {
